@@ -40,9 +40,18 @@ const getAllTask = async (req, res) => {
   }
 };
 
+/*update task */
 const updateTask = (req, res) => {
   res.status(200).send("hello from controller");
 };
+
+
+/*delete task */
+
+const deleteTask = (req ,res ) => {
+  res.send("Hello from task controller :: delete" );
+}
+
 
 module.exports = {
   createTask,
